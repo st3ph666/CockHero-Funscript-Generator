@@ -2,6 +2,8 @@
 
 Advanced Python tool for creating, analyzing and optimizing `.funscript` files, including CockHero-oriented rhythmic generation and visual analysis.
 
+![CockHero Funscript Generator - Red interface](1CH.png)
+
 ![CockHero Funscript Generator v4.15.1](cockhero.png)
 
 ## Current version
@@ -92,7 +94,7 @@ The application works with `.funscript` files and supported video files in the s
 - Language selection retained between sessions
 - Source-code comments standardized in English
 - Modular package metadata and runtime synchronized with v4.15.1
-- Updated application screenshot
+- Both application screenshots displayed, with the red interface first
 
 ### v4.14.9
 
