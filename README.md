@@ -2,31 +2,32 @@
 
 Advanced Python tool for creating, analyzing and optimizing `.funscript` files, including CockHero-oriented rhythmic generation and visual analysis.
 
-![CockHero Funscript Generator v4.14.9](1CH.png)
+![CockHero Funscript Generator v4.15.1](cockhero.png)
 
 ## Current version
 
-**v4.14.9**
+**v4.15.1**
 
 Main standalone script:
 
-`CockHero_Funscript_Generator_v4.14.9.py`
+`CockHero_Funscript_Generator_v4.15.1-English-Code-Comments.py`
 
-The tested standalone application is preserved, and a modular API is now available under `src/cockhero_generator/`.
+The application now provides a selectable **Français / English** interface from the top of the GUI. The selected language is retained, and the source-code comments are maintained in English for easier collaboration.
+
+A modular API is available under `src/cockhero_generator/` and is synchronized with the current standalone release.
 
 ## Modular structure
 
-- `runtime.py` — compatibility loader for the tested standalone implementation
+- `runtime.py` — compatibility loader for the current standalone implementation
 - `core.py` — funscript processing, normalization, cycles, gaps and fades
 - `patterns.py` — CockHero rhythmic generation, episode presets and movement patterns
 - `media.py` — video duration, MPV, audio beat and phase helpers
 - `gui.py` — graphical interface entry point
 - `__main__.py` — `python -m cockhero_generator` entry point
 
-This layout keeps v4.14.9 behavior intact while providing clean modules for future development and refactoring.
-
 ## Features
 
+- Selectable French / English interface
 - Graphical interface built with Tkinter
 - Funscript analysis and optimization
 - Video-based funscript generation
@@ -42,6 +43,7 @@ This layout keeps v4.14.9 behavior intact while providing clean modules for futu
 - Fixed and rhythmic episode presets
 - Visual analysis tools
 - Automatic video duration detection through `ffprobe`
+- English source-code comments for collaboration
 
 ## Requirements
 
@@ -60,7 +62,7 @@ python3 -m pip install numpy
 ## Run standalone
 
 ```bash
-python3 CockHero_Funscript_Generator_v4.14.9.py
+python3 CockHero_Funscript_Generator_v4.15.1-English-Code-Comments.py
 ```
 
 ## Run as a module
@@ -84,15 +86,21 @@ The application works with `.funscript` files and supported video files in the s
 
 ## Version history
 
+### v4.15.1
+
+- Selectable French / English interface at the top of the GUI
+- Language selection retained between sessions
+- Source-code comments standardized in English
+- Modular package metadata and runtime synchronized with v4.15.1
+- Updated application screenshot
+
 ### v4.14.9
 
-- Current public release
 - CockHero rhythmic generation and episode pattern support
 - Visual analysis workflow
 - Progressive movement generation and transition handling
 - Expanded movement/pattern controls
-- Modular `src/cockhero_generator/` API added without replacing the tested standalone application
-- Application screenshot added to the project page
+- Modular `src/cockhero_generator/` API introduced
 
 ## Author
 
