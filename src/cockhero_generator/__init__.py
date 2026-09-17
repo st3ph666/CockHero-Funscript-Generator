@@ -1,6 +1,6 @@
 """CockHero Funscript Generator modular API."""
 
-__version__ = "4.14.9"
+__version__ = "4.15.1"
 
 from .gui import FunscriptGUI, main
 
