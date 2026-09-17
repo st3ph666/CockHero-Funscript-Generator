@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cockhero-funscript-generator"
-version = "4.14.9"
-description = "CockHero funscript generator, optimizer and visual analysis GUI"
+version = "4.15.1"
+description = "CockHero funscript generator, optimizer and visual analysis GUI with selectable French/English interface"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy"]
